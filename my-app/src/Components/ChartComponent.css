@@ -1,0 +1,51 @@
+.chart-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 42.5rem;
+  height: 13rem;
+  background-color: #1d2023;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.header-container h1 {
+  margin-right: 35rem; 
+  color: white;
+  font-size: medium;
+  border: none;
+}
+
+.header-container select {
+  background-color: #1d2023;
+  color: white;
+  border: 1px solid #f4f4f6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header-container select:focus {
+  outline: none;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 100%;
+}
+
+.heading {
+  display: flex;
+}

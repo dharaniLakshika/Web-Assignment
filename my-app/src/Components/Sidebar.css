@@ -1,0 +1,28 @@
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 0.45rem;
+    background-color: #343a40;
+    height: 100vh;
+  }
+  
+  .icon {
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    #sidebar {
+      flex-direction: row;
+      justify-content: space-around;
+      height: auto;
+      padding: 0.5rem;
+    }
+  
+    .icon {
+      margin-bottom: 0;
+    }
+  }
+  
